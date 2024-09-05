@@ -13,6 +13,7 @@ public class App {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+//        object created
         FlappyBird flappyBird = new FlappyBird();
         frame.add(flappyBird);
         frame.pack();
